@@ -46,3 +46,5 @@ ES6 will tackle many of the core language shortcomings addressed in  TypeScript 
 ES6 is the next iteration of JavaScript, but it does not run in today's browsers.
 There are quite a few transpilers that will export ES5 for running in browsers.
 
+TypeScript is a free and open source programming language developed and maintained by Microsoft. It is a strict superset of JavaScript, and adds optional static typing and class-based object-oriented programming to the language. 
+As TypeScript is a superset of JavaScript, any existing JavaScript programs are also valid TypeScript programs (js to ts).
