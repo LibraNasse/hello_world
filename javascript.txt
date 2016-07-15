@@ -26,5 +26,23 @@ The Web server is another common host environment.
 A JavaScript Web server would typically expose host objects representing HTTP request and response objects, 
 which a JavaScript program could then interrogate and manipulate to dynamically generate Web pages.
 
+ECMAScript = ES:
+ECMAScript is a Standard for scripting languages.
+Languages like Javascript are based on the ECMAScript standard.
+ECMA Standard is based on several originating technologies, the most well known being JavaScript (Netscape) and JScript (Microsoft).
+ECMA means European Computer Manufacturer’s Association
 
+JavaScript = JS:
+JavaScript is the most popular implementations of the ECMAScript Standard.
+The core features of Javascript are based on the ECMAScript standard,  but Javascript also has other additional features that are not in the ECMA specifications/standard.
+ActionScript and JScript are another languages that implements the ECMAScript.
+JavaScript was submitted to ECMA for standardization but due to trademark issues with the name Javascript the standard became called ECMAScript.
+Every browser has a JavaScript interpreter.
+
+ES6 = ECMAScript 6 = ES2015 = ECMAScript 2015:
+ES2015 is a version of the ECMAScript (new/future one).
+Officially the name ES2015 should be used instead of ES6.
+ES6 will tackle many of the core language shortcomings addressed in  TypeScript and CoffeeScript.
+ES6 is the next iteration of JavaScript, but it does not run in today's browsers.
+There are quite a few transpilers that will export ES5 for running in browsers.
 
