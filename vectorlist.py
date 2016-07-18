@@ -18,12 +18,6 @@ class vectorList():
 
 x=vectorList()
 x.setVectorTo([1,2,3,3])
-
-
-print x.app(7)
-
 print x.add([3,5,8])
-
 print x.append(7)
-
 print x.count(3)
