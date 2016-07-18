@@ -1,12 +1,12 @@
 class vectorList():
     def __init__(self):
-        self.vector=[]
+        self.vector = []
         
     def setVectorTo(self,vector):
         self.vector=vector
     def add(self,addVector):
         return self.vector+addVector
-    def app(self,value):
+    def append(self,value):
         return self.vector+[value]
     def count(self, value):
         counter=0
@@ -24,6 +24,6 @@ print x.app(7)
 
 print x.add([3,5,8])
 
-print x.app(7)
+print x.append(7)
 
 print x.count(3)
