@@ -5,11 +5,11 @@ class vectorList():
     def setVectorTo(self,vector):
         self.vector = vector
     def add(self,addVector):
-        return self.vector+addVector
+        return self.vector + addVector
     def append(self,value):
-        return self.vector+[value]
+        return self.vector + [value]
     def count(self, value):
-        counter=0
+        counter = 0
         for i in self.vector:
             if i == value:
                 counter += 1
