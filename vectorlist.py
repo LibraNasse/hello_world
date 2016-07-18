@@ -3,7 +3,7 @@ class vectorList():
         self.vector = []
         
     def setVectorTo(self,vector):
-        self.vector=vector
+        self.vector = vector
     def add(self,addVector):
         return self.vector+addVector
     def append(self,value):
@@ -11,8 +11,8 @@ class vectorList():
     def count(self, value):
         counter=0
         for i in self.vector:
-            if i==value:
-                counter +=1
+            if i == value:
+                counter += 1
         return counter
 
 
