@@ -12,6 +12,6 @@ def exist_path(graph, a, b):
             return "A path exists"
         else:
             for neighbor in graph[a]:
-                return exist_path(graph,neighbor,b)
+                return exist_path(graph, neighbor, b)
                 
 print(exist_path(graph,"a","d"))
