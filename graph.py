@@ -6,14 +6,12 @@ graph = { "a" : ["c"],
           "f" : []
         }
 
-
-
-def exist_path(graph,a,b):
+def exist_path(graph, a, b):
     for neighbor in graph[a]:
         if neighbor == b:
-            return ("A path exists")
+            return "A path exists"
         else:
             for neighbor in graph[a]:
                 return exist_path(graph,neighbor,b)
                 
-print (exist_path(graph,"a","d"))
+print(exist_path(graph,"a","d"))
