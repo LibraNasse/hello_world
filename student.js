@@ -1,21 +1,21 @@
-class student{
+class Student{
 	constructor(public name: string){}
 	
 }
 
-class classroom{
+class Classroom{
 	constructer(public name: string)
 	
 }
 
 
-class subject{
+class Subject{
 	constructer(public name: string)
 	
 }
 
 
-class group extends subject{
+class Group extends Subject{
 	
 }
 
