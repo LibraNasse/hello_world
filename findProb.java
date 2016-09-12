@@ -1,10 +1,12 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.concurrent.TimeUnit;
 
 public class findProb {
 
 	public static void main(String[] args) throws IOException {
+		long startTime = System.currentTimeMillis();
 		try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))){
 			StringBuffer stringBuffer = new StringBuffer();
 			try{
@@ -17,6 +19,7 @@ public class findProb {
 					result = "no";
 					
 				}
+				
 				stringBuffer.append(result);
 				stringBuffer.append("\n");
 				}
@@ -27,6 +30,8 @@ public class findProb {
 		}
 
 	}
-
+      long stopTime = System.currentTimeMillis();
+      long elapsedTime = stopTime - startTime;
+      System.out.println(elapsedTime);
 	}
 }
