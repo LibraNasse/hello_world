@@ -4,15 +4,14 @@ import java.io.InputStreamReader;
 
 public class findProb {
 
-	public static void main(String[] args) {
-		System.out.println("Printing the file passed in:");
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		try {
+	public static void main(String[] args) throws IOException {
+		try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))){
 			StringBuffer stringBuffer = new StringBuffer();
-			String line;
-			String result;
-			while ((line = br.readLine()) != null) {
-				if(line.toLowerCase().contains("problem")){
+			try{
+				String line;
+				String result;
+				while ((line = br.readLine()) != null && line.length()!=0) {
+					if(line.toLowerCase().contains("problem")){
 					result = "yes";
 				}else {
 					result = "no";
@@ -24,8 +23,10 @@ public class findProb {
 			System.out.println(stringBuffer.toString());
 		} catch (IOException e) {
 			e.printStackTrace();
+			throw e;
 		}
 
 	}
 
+	}
 }
