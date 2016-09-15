@@ -1,2 +1,5 @@
 What is XAML?
-Extensible Application Markup Language, or XAML (pronounced "zammel"), is an XML-based markup language developed by Microsoft. XAML is the language behind the visual presentation of an application that you develop in Microsoft Expression Blend, just as HTML is the language behind the visual presentation of a Web page. Creating an application in Expression Blend means writing XAML code, either by hand or visually by working in theDesign view of Expression Blend.
+Extensible Application Markup Language, or XAML (pronounced "zammel"), is an XML-based markup language developed by Microsoft. 
+XAML is the language behind the visual presentation of an application that you develop in Microsoft Expression Blend, 
+just as HTML is the language behind the visual presentation of a Web page. 
+Creating an application in Expression Blend means writing XAML code, either by hand or visually by working in theDesign view of Expression Blend.
