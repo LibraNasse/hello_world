@@ -1,0 +1,31 @@
+ PARSER
+ parser is a software component that takes input data (frequently text) and builds a data structure – 
+ often some kind of parse tree, abstract syntax tree or other hierarchical structure – giving a structural representation of the input, 
+ hecking for correct syntax in the process.
+ 
+ LEXICAL ANALYSIS
+ In computer science, lexical analysis is the process of converting a sequence of characters (such as in a computer program or web page)
+ into a sequence of tokens (strings with an assigned and thus identified meaning). A program that performs lexical analysis may be termed a lexer, tokenizer,[1] or scanner, though scanner is also a term for the first stage of a lexer. 
+ A lexer is generally combined with a parser, which together analyze the syntax of programming languages, web pages, and so forth.
+ 
+Tokens to XML
+The quick brown fox jumps over the lazy dog
+<sentence>
+  <word>The</word>
+  <word>quick</word>
+  <word>brown</word>
+  <word>fox</word>
+  <word>jumps</word>
+  <word>over</word>
+  <word>the</word>
+  <word>lazy</word>
+  <word>dog</word>
+</sentence>
+
+
+
+ 
+ 
+ 
+ 
+ 
