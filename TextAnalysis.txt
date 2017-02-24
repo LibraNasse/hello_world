@@ -23,6 +23,10 @@ The quick brown fox jumps over the lazy dog
 </sentence>
 
 
+Morpheme
+A meaningful morphological unit of a language that cannot be further divided (e.g. in, come, -ing, forming incoming ).
+A morphological element considered in respect of its functional relations in a linguistic system.
+
 
  
  
